@@ -55,11 +55,8 @@ h2,p{
 }
 a{
     text-decoration: none;
-    color: black;
-    margin: 10px;
+    color: white;
     transition: 0.4s ease;
-    
-    
 }
 b{
     font-size: 40px;
@@ -73,7 +70,7 @@ b{
     bottom: 270px;
     border-radius: 50%;
     color: red;
-    transition: 0.4s ease;
+    transition: 0.5s ease;
 
 }
 
@@ -102,7 +99,9 @@ i{
     color: white;
     background-color: rgb(206, 18, 18);
 }
-.box-1:hover .smallbox {
-    color: rgb(206, 18, 18);
+.smallbox:hover {
     background-color: white;
+}
+.smallbox:hover>a{
+    color: rgb(206, 18, 18);
 }
